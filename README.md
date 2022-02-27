@@ -1,4 +1,4 @@
-# CodingBatJava
+# CodingBat Java - https://codingbat.com/java
 
 This folder contains the programming exercises of CodingBat 
 
