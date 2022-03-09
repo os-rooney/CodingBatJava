@@ -9,7 +9,7 @@ public class max1020 {
         if(b > a){
             int temp = a;
             a = b;
-            b = a;
+            b = temp;
         }
         // Knowing a is bigger, just check a first
         if(a >= 10 && a <= 20) return a;
