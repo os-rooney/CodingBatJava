@@ -23,11 +23,11 @@ public class startOz {
     }
 
     public static void main(String[] args) {
-        System.out.println(startOz("ozymandias"));
-        System.out.println(startOz("o"));
-        System.out.println(startOz("oz"));
-        System.out.println(startOz(""));
-        System.out.println(startOz("abc"));
-        System.out.println(startOz("aztec"));
+        System.out.println(startOz("ozymandias")); // prints oz
+        System.out.println(startOz("o")); // prints o
+        System.out.println(startOz("oz")); // prints oz
+        System.out.println(startOz(""));  // prints nothing
+        System.out.println(startOz("abc")); // prints nothing
+        System.out.println(startOz("aztec")); // prints z
     }
 }
