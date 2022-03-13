@@ -1,5 +1,2 @@
-# CodingBat Java - https://codingbat.com/java
-
-This folder contains the programming exercises of CodingBat 
-
-This repository is only for the purpose of practicing Java
+# CodingBat-library
+This library contains static methods that output the solutions of codingbat code challenges.
