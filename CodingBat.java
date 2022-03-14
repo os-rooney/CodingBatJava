@@ -492,7 +492,7 @@ public class CodingBat {
      * @param str string
      * @return string
      */
-    public String endUp(String str) {
+    public static String endUp(String str) {
         if (str.length() <= 3) {
             return str.toUpperCase();
         }
@@ -505,6 +505,32 @@ public class CodingBat {
 
     // Warmup-2
 
-    
+    /**
+     * Return a larger string that is n copies of the original string.
+     * @param str string
+     * @param n int
+     * @return string
+     */
+    public static String stringTimes(String str, int n) {
+        String newStr = "";
+        for (int i = 1; i <= n; i++) {
+            newStr += str;
+        }
+        return newStr;
+    }
+
+
+    /**
+     * Returns true, if the first instance of "x" in the string is immediately followed by another "x". 
+     * @param str string
+     * @return boolean
+     */
+    public static boolean doubleX(String str) {
+        int i = str.indexOf("x");
+        if (i == -1)
+            return false; // no "x" at all
+        String x = str.substring(i);
+        return x.startsWith("xx");
+    }
 
 }
